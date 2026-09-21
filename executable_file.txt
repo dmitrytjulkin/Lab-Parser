@@ -1,0 +1,23 @@
+q = 9 * pi * l / U * sqrt(2/(rho * g)) (eta h)^(3/2) (t + t') / (t^(3/2) + t');
+
+pi = 3.14;              // const values throughout the lab
+l = 0.00725;
+rho = 898;
+g = 9.8;
+eta = 0.0000185;
+h = 0.001;
+
+U = 180;               // collect data from csv, find avg value and error rate
+t = 20.48;
+t' = 6.29;
+
+sigma sigma_U = U;      // how we know that this variable is for error rate
+sigma sigma_t = t;
+sigma sigma_t' = t';
+
+
+sigma_t = get_error_rate (t);
+sigma_t' = get_error_rate (t');
+
+
+

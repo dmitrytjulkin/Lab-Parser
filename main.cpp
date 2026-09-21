@@ -9,7 +9,7 @@ int main ()
 //      optimize (calculate) to final error rate;
 
 
-    printf ("Through the code and directories"
+    printf ("Through the code and directories, "
             "i alone am the programmer one");
 
     return 0;
